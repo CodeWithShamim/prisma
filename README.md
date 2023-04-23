@@ -5,6 +5,7 @@
 - npm install @prisma/client
 - npx tsc --init
 - npx prisma init --datasource-provider postgresql(db name)
+- npx prisma db push
 - npx prisma migrate dev --name init
 - npx prisma generate
 - npx prisma studio
